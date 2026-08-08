@@ -15,8 +15,7 @@ def guess():
         b = int(input("Guess your number between (1-100): "))
 
         if (a == b):
-            print(f'''This is a perfect guess.
-            computer's number was {a}''')
+            print(f'''This is a perfect guess., "\n",computer's number was {a}''')
             c = input("Press Enter to play again or type EXIT to exit: ")
             if (c == ""):
                 guess()
